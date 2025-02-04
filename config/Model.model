@@ -42,10 +42,12 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
+    <datalists entityCode="17" entityName="local datalist" version="29" name="local datalist" description="" created="2025-02-04T11:48:59.174+02:00" createdBy="admin" lastUpdated="2025-02-04T11:48:59.174+02:00" lastUpdatedBy="admin" id="local datalist"/>
     <views allColumns="true" default="true" modelView="true" entityName="noresetClone" name="noresetClone" description="Default view for list noreset" id="noresetClone"/>
     <views allColumns="true" default="true" entityName="Stock Fundamental" name="Stock Fundamental" description="Default view for list Stock Fundamental" id="Stock Fundamental"/>
     <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
     <views allColumns="true" default="true" entityName="Strategy" name="Strategy" description="Default view for list Strategy" id="Strategy"/>
+    <views allColumns="true" default="true" entityName="local datalist" name="local datalist" description="Default view for list local datalist" id="local datalist"/>
     <connectors layoutDetected="true" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-02-04T11:47:02.505+02:00" createdBy="admin" lastUpdated="2025-02-04T11:47:02.505+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
         <connectorFields columnIndex="0" ignore="false" mapField="Symbol" type="text" rawType="String" allowNull="true" name="Symbol" id="Symbol"/>
         <connectorFields columnIndex="1" ignore="false" mapField="Name" type="text" rawType="String" allowNull="true" name="Name" id="Name"/>
